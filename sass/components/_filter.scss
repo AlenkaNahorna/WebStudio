@@ -1,0 +1,15 @@
+.filter {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin: -8px -8px -8px 0;
+
+  @media screen and (min-width: $tablet) {
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  &__item {
+    margin: 8px 8px 8px 0;
+  }
+}

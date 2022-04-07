@@ -1,0 +1,14 @@
+.header {
+  border-bottom: 1px solid $border-primary;
+  &__container {
+    @extend %flex;
+  }
+  &__navigation {
+    @media screen and (min-width: $tablet) {
+      margin-left: 88px;
+    }
+    @media screen and (min-width: $desktop) {
+      margin-left: 93px;
+    }
+  }
+}
